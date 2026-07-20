@@ -1,19 +1,35 @@
 {
   "users": [
     {
-      "_id": "apyngq1ho",
-      "createdAt": "2026-07-20T09:31:26.010Z",
-      "updatedAt": "2026-07-20T09:31:26.011Z",
+      "_id": "nh0zqi8uj",
+      "createdAt": "2026-07-20T13:48:28.636Z",
+      "updatedAt": "2026-07-20T13:48:28.637Z",
       "email": "admin@kowshi.com",
-      "password": "$2a$10$r9oPVssrsJ3uPcgC91d.meCexpCKeRWm2gWzwhp.GVlh1AbqKHZ9C",
+      "password": "$2a$10$KghvChrZa9/L6VjSYUI8eOHEy2.ObMhcbvBjICicdVwALltsATBzu",
       "name": "Sathya"
     }
   ],
   "patients": [
     {
-      "_id": "6a5deaeee0e8b51bda4d907d",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260b2",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
+      "id": "MRN-84213",
+      "name": "Arjun Menon",
+      "age": 54,
+      "gender": "Male",
+      "department": "Cardiology",
+      "doctor": "Dr. Priya Raman",
+      "status": "Admitted",
+      "room": "ICU-04",
+      "admitted": "2026-07-14T00:00:00.000Z",
+      "condition": "Stable",
+      "phone": "+91 98400 12345"
+    },
+    {
+      "_id": "6a5e272cd80de876cd1260b3",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84220",
       "name": "Lakshmi Narayanan",
       "age": 32,
@@ -27,9 +43,9 @@
       "phone": "+91 98400 22345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d907e",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260b4",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84231",
       "name": "Rohit Sharma",
       "age": 8,
@@ -43,9 +59,9 @@
       "phone": "+91 98400 32345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d907f",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260b5",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84245",
       "name": "Fatima Sheikh",
       "age": 67,
@@ -59,9 +75,9 @@
       "phone": "+91 98400 42345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9080",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260b6",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84256",
       "name": "Vikram Aditya",
       "age": 45,
@@ -75,9 +91,9 @@
       "phone": "+91 98400 52345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9081",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260b7",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84267",
       "name": "Meera Pillai",
       "age": 29,
@@ -91,9 +107,9 @@
       "phone": "+91 98400 62345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9082",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260b8",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84278",
       "name": "Karthik Subramaniam",
       "age": 61,
@@ -107,9 +123,9 @@
       "phone": "+91 98400 72345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9083",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260b9",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84289",
       "name": "Ananya Reddy",
       "age": 4,
@@ -123,9 +139,9 @@
       "phone": "+91 98400 82345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9084",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260ba",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84291",
       "name": "Suresh Gopalan",
       "age": 73,
@@ -139,9 +155,9 @@
       "phone": "+91 98400 92345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9085",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260bb",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84302",
       "name": "Divya Bhaskar",
       "age": 38,
@@ -155,9 +171,9 @@
       "phone": "+91 98400 02345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9086",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260bc",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84318",
       "name": "Manoj Tiwari",
       "age": 51,
@@ -171,9 +187,9 @@
       "phone": "+91 98400 13345"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9087",
-      "createdAt": "2026-07-20T09:31:26.018Z",
-      "updatedAt": "2026-07-20T09:31:26.018Z",
+      "_id": "6a5e272cd80de876cd1260bd",
+      "createdAt": "2026-07-20T13:48:28.641Z",
+      "updatedAt": "2026-07-20T13:48:28.641Z",
       "id": "MRN-84327",
       "name": "Priyanka Das",
       "age": 26,
@@ -185,29 +201,41 @@
       "admitted": "2026-07-19T00:00:00.000Z",
       "condition": "Stable",
       "phone": "+91 98400 23345"
-    },
-    {
-      "_id": "6a5debaadc02125d331b0457",
-      "createdAt": "2026-07-20T09:34:34.362Z",
-      "updatedAt": "2026-07-20T09:34:34.363Z",
-      "id": "MRN-84013",
-      "name": "rahul",
-      "age": 50,
-      "gender": "Male",
-      "department": "General Medicine",
-      "doctor": "priya",
-      "status": "Outpatient",
-      "room": "—",
-      "condition": "Stable",
-      "phone": "83449865412",
-      "admitted": 1784540074361
     }
   ],
   "doctors": [
     {
-      "_id": "6a5deaeee0e8b51bda4d908a",
-      "createdAt": "2026-07-20T09:31:26.023Z",
-      "updatedAt": "2026-07-20T09:31:26.023Z",
+      "_id": "6a5e272cd80de876cd1260be",
+      "createdAt": "2026-07-20T13:48:28.644Z",
+      "updatedAt": "2026-07-20T13:48:28.644Z",
+      "id": "DOC-101",
+      "name": "Dr. Priya Raman",
+      "specialty": "Cardiology",
+      "experience": 14,
+      "patients": 42,
+      "rating": 4.9,
+      "status": "On Duty",
+      "shift": "08:00 - 18:00",
+      "phone": "+91 98450 10101"
+    },
+    {
+      "_id": "6a5e272cd80de876cd1260bf",
+      "createdAt": "2026-07-20T13:48:28.644Z",
+      "updatedAt": "2026-07-20T13:48:28.644Z",
+      "id": "DOC-102",
+      "name": "Dr. Kavitha Suresh",
+      "specialty": "Obstetrics & Gynecology",
+      "experience": 11,
+      "patients": 36,
+      "rating": 4.8,
+      "status": "On Duty",
+      "shift": "09:00 - 17:00",
+      "phone": "+91 98450 10102"
+    },
+    {
+      "_id": "6a5e272cd80de876cd1260c0",
+      "createdAt": "2026-07-20T13:48:28.644Z",
+      "updatedAt": "2026-07-20T13:48:28.644Z",
       "id": "DOC-103",
       "name": "Dr. Anand Verma",
       "specialty": "Pediatrics",
@@ -219,9 +247,9 @@
       "phone": "+91 98450 10103"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d908b",
-      "createdAt": "2026-07-20T09:31:26.023Z",
-      "updatedAt": "2026-07-20T09:31:26.023Z",
+      "_id": "6a5e272cd80de876cd1260c1",
+      "createdAt": "2026-07-20T13:48:28.644Z",
+      "updatedAt": "2026-07-20T13:48:28.644Z",
       "id": "DOC-104",
       "name": "Dr. Rajesh Iyer",
       "specialty": "Oncology",
@@ -233,9 +261,9 @@
       "phone": "+91 98450 10104"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d908c",
-      "createdAt": "2026-07-20T09:31:26.023Z",
-      "updatedAt": "2026-07-20T09:31:26.023Z",
+      "_id": "6a5e272cd80de876cd1260c2",
+      "createdAt": "2026-07-20T13:48:28.644Z",
+      "updatedAt": "2026-07-20T13:48:28.644Z",
       "id": "DOC-105",
       "name": "Dr. Neha Kapoor",
       "specialty": "Orthopedics",
@@ -247,9 +275,9 @@
       "phone": "+91 98450 10105"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d908d",
-      "createdAt": "2026-07-20T09:31:26.023Z",
-      "updatedAt": "2026-07-20T09:31:26.023Z",
+      "_id": "6a5e272cd80de876cd1260c3",
+      "createdAt": "2026-07-20T13:48:28.644Z",
+      "updatedAt": "2026-07-20T13:48:28.644Z",
       "id": "DOC-106",
       "name": "Dr. Suresh Babu",
       "specialty": "Neurology",
@@ -261,9 +289,9 @@
       "phone": "+91 98450 10106"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d908e",
-      "createdAt": "2026-07-20T09:31:26.023Z",
-      "updatedAt": "2026-07-20T09:31:26.023Z",
+      "_id": "6a5e272cd80de876cd1260c4",
+      "createdAt": "2026-07-20T13:48:28.644Z",
+      "updatedAt": "2026-07-20T13:48:28.644Z",
       "id": "DOC-107",
       "name": "Dr. Divya Krishnan",
       "specialty": "General Medicine",
@@ -275,9 +303,9 @@
       "phone": "+91 98450 10107"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d908f",
-      "createdAt": "2026-07-20T09:31:26.023Z",
-      "updatedAt": "2026-07-20T09:31:26.023Z",
+      "_id": "6a5e272cd80de876cd1260c5",
+      "createdAt": "2026-07-20T13:48:28.644Z",
+      "updatedAt": "2026-07-20T13:48:28.644Z",
       "id": "DOC-108",
       "name": "Dr. Karthik Nair",
       "specialty": "Emergency Medicine",
@@ -291,9 +319,9 @@
   ],
   "appointments": [
     {
-      "_id": "6a5deaeee0e8b51bda4d9090",
-      "createdAt": "2026-07-20T09:31:26.028Z",
-      "updatedAt": "2026-07-20T09:31:26.028Z",
+      "_id": "6a5e272cd80de876cd1260c6",
+      "createdAt": "2026-07-20T13:48:28.647Z",
+      "updatedAt": "2026-07-20T13:48:28.647Z",
       "id": "APT-5501",
       "patient": "Arjun Menon",
       "doctor": "Dr. Priya Raman",
@@ -304,9 +332,9 @@
       "status": "Confirmed"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9091",
-      "createdAt": "2026-07-20T09:31:26.028Z",
-      "updatedAt": "2026-07-20T09:31:26.028Z",
+      "_id": "6a5e272cd80de876cd1260c7",
+      "createdAt": "2026-07-20T13:48:28.647Z",
+      "updatedAt": "2026-07-20T13:48:28.647Z",
       "id": "APT-5502",
       "patient": "Rohit Sharma",
       "doctor": "Dr. Anand Verma",
@@ -317,9 +345,9 @@
       "status": "Confirmed"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9092",
-      "createdAt": "2026-07-20T09:31:26.028Z",
-      "updatedAt": "2026-07-20T09:31:26.028Z",
+      "_id": "6a5e272cd80de876cd1260c8",
+      "createdAt": "2026-07-20T13:48:28.647Z",
+      "updatedAt": "2026-07-20T13:48:28.647Z",
       "id": "APT-5503",
       "patient": "Meera Pillai",
       "doctor": "Dr. Suresh Babu",
@@ -330,9 +358,9 @@
       "status": "Pending"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9093",
-      "createdAt": "2026-07-20T09:31:26.028Z",
-      "updatedAt": "2026-07-20T09:31:26.028Z",
+      "_id": "6a5e272cd80de876cd1260c9",
+      "createdAt": "2026-07-20T13:48:28.647Z",
+      "updatedAt": "2026-07-20T13:48:28.647Z",
       "id": "APT-5504",
       "patient": "Ananya Reddy",
       "doctor": "Dr. Anand Verma",
@@ -343,9 +371,22 @@
       "status": "Confirmed"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9095",
-      "createdAt": "2026-07-20T09:31:26.028Z",
-      "updatedAt": "2026-07-20T09:31:26.028Z",
+      "_id": "6a5e272cd80de876cd1260ca",
+      "createdAt": "2026-07-20T13:48:28.647Z",
+      "updatedAt": "2026-07-20T13:48:28.647Z",
+      "id": "APT-5505",
+      "patient": "Suresh Gopalan",
+      "doctor": "Dr. Divya Krishnan",
+      "department": "General Medicine",
+      "date": "2026-07-20",
+      "time": "02:30 PM",
+      "type": "Consultation",
+      "status": "Confirmed"
+    },
+    {
+      "_id": "6a5e272cd80de876cd1260cb",
+      "createdAt": "2026-07-20T13:48:28.647Z",
+      "updatedAt": "2026-07-20T13:48:28.647Z",
       "id": "APT-5506",
       "patient": "Priyanka Das",
       "doctor": "Dr. Divya Krishnan",
@@ -356,9 +397,9 @@
       "status": "Cancelled"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9096",
-      "createdAt": "2026-07-20T09:31:26.028Z",
-      "updatedAt": "2026-07-20T09:31:26.028Z",
+      "_id": "6a5e272cd80de876cd1260cc",
+      "createdAt": "2026-07-20T13:48:28.647Z",
+      "updatedAt": "2026-07-20T13:48:28.647Z",
       "id": "APT-5507",
       "patient": "Manoj Tiwari",
       "doctor": "Dr. Rajesh Iyer",
@@ -369,9 +410,9 @@
       "status": "Confirmed"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9097",
-      "createdAt": "2026-07-20T09:31:26.028Z",
-      "updatedAt": "2026-07-20T09:31:26.028Z",
+      "_id": "6a5e272cd80de876cd1260cd",
+      "createdAt": "2026-07-20T13:48:28.647Z",
+      "updatedAt": "2026-07-20T13:48:28.647Z",
       "id": "APT-5508",
       "patient": "Divya Bhaskar",
       "doctor": "Dr. Neha Kapoor",
@@ -380,66 +421,53 @@
       "time": "10:45 AM",
       "type": "Follow-up",
       "status": "Pending"
-    },
-    {
-      "_id": "6a5deaf4dc02125d331b0455",
-      "createdAt": "2026-07-20T09:31:32.913Z",
-      "updatedAt": "2026-07-20T09:31:32.914Z",
-      "id": "APT-5509",
-      "patient": "Arjun Test",
-      "doctor": "Dr. Priya Raman",
-      "department": "Cardiology",
-      "date": "2026-07-20",
-      "time": "09:00 AM",
-      "type": "Consultation",
-      "status": "Confirmed"
     }
   ],
   "wards": [
     {
-      "_id": "6a5deaeee0e8b51bda4d9098",
-      "createdAt": "2026-07-20T09:31:26.032Z",
-      "updatedAt": "2026-07-20T09:31:26.032Z",
+      "_id": "6a5e272cd80de876cd1260ce",
+      "createdAt": "2026-07-20T13:48:28.651Z",
+      "updatedAt": "2026-07-20T13:48:28.651Z",
       "ward": "ICU",
       "total": 24,
       "occupied": 21
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d9099",
-      "createdAt": "2026-07-20T09:31:26.033Z",
-      "updatedAt": "2026-07-20T09:31:26.033Z",
+      "_id": "6a5e272cd80de876cd1260cf",
+      "createdAt": "2026-07-20T13:48:28.651Z",
+      "updatedAt": "2026-07-20T13:48:28.651Z",
       "ward": "General",
       "total": 160,
       "occupied": 118
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d909a",
-      "createdAt": "2026-07-20T09:31:26.033Z",
-      "updatedAt": "2026-07-20T09:31:26.033Z",
+      "_id": "6a5e272cd80de876cd1260d0",
+      "createdAt": "2026-07-20T13:48:28.651Z",
+      "updatedAt": "2026-07-20T13:48:28.651Z",
       "ward": "Pediatric",
       "total": 40,
       "occupied": 22
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d909b",
-      "createdAt": "2026-07-20T09:31:26.033Z",
-      "updatedAt": "2026-07-20T09:31:26.033Z",
+      "_id": "6a5e272cd80de876cd1260d1",
+      "createdAt": "2026-07-20T13:48:28.651Z",
+      "updatedAt": "2026-07-20T13:48:28.651Z",
       "ward": "Maternity",
       "total": 32,
       "occupied": 19
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d909c",
-      "createdAt": "2026-07-20T09:31:26.033Z",
-      "updatedAt": "2026-07-20T09:31:26.033Z",
+      "_id": "6a5e272cd80de876cd1260d2",
+      "createdAt": "2026-07-20T13:48:28.651Z",
+      "updatedAt": "2026-07-20T13:48:28.651Z",
       "ward": "Emergency",
       "total": 20,
       "occupied": 14
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d909d",
-      "createdAt": "2026-07-20T09:31:26.033Z",
-      "updatedAt": "2026-07-20T09:31:26.033Z",
+      "_id": "6a5e272cd80de876cd1260d3",
+      "createdAt": "2026-07-20T13:48:28.651Z",
+      "updatedAt": "2026-07-20T13:48:28.651Z",
       "ward": "Isolation",
       "total": 16,
       "occupied": 5
@@ -447,9 +475,9 @@
   ],
   "pharmacy": [
     {
-      "_id": "6a5deaeee0e8b51bda4d909e",
-      "createdAt": "2026-07-20T09:31:26.038Z",
-      "updatedAt": "2026-07-20T09:31:26.038Z",
+      "_id": "6a5e272cd80de876cd1260d4",
+      "createdAt": "2026-07-20T13:48:28.655Z",
+      "updatedAt": "2026-07-20T13:48:28.655Z",
       "id": "RX-2201",
       "name": "Amoxicillin 500mg",
       "category": "Antibiotic",
@@ -460,9 +488,9 @@
       "status": "In Stock"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d909f",
-      "createdAt": "2026-07-20T09:31:26.038Z",
-      "updatedAt": "2026-07-20T09:31:26.038Z",
+      "_id": "6a5e272cd80de876cd1260d5",
+      "createdAt": "2026-07-20T13:48:28.655Z",
+      "updatedAt": "2026-07-20T13:48:28.655Z",
       "id": "RX-2202",
       "name": "Paracetamol 650mg",
       "category": "Analgesic",
@@ -473,9 +501,9 @@
       "status": "Low Stock"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a0",
-      "createdAt": "2026-07-20T09:31:26.038Z",
-      "updatedAt": "2026-07-20T09:31:26.038Z",
+      "_id": "6a5e272cd80de876cd1260d6",
+      "createdAt": "2026-07-20T13:48:28.655Z",
+      "updatedAt": "2026-07-20T13:48:28.655Z",
       "id": "RX-2203",
       "name": "Atorvastatin 20mg",
       "category": "Statin",
@@ -486,9 +514,9 @@
       "status": "In Stock"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a1",
-      "createdAt": "2026-07-20T09:31:26.038Z",
-      "updatedAt": "2026-07-20T09:31:26.038Z",
+      "_id": "6a5e272cd80de876cd1260d7",
+      "createdAt": "2026-07-20T13:48:28.655Z",
+      "updatedAt": "2026-07-20T13:48:28.655Z",
       "id": "RX-2204",
       "name": "Insulin Glargine",
       "category": "Hormone",
@@ -499,9 +527,9 @@
       "status": "Low Stock"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a2",
-      "createdAt": "2026-07-20T09:31:26.038Z",
-      "updatedAt": "2026-07-20T09:31:26.038Z",
+      "_id": "6a5e272cd80de876cd1260d8",
+      "createdAt": "2026-07-20T13:48:28.655Z",
+      "updatedAt": "2026-07-20T13:48:28.655Z",
       "id": "RX-2205",
       "name": "Metformin 500mg",
       "category": "Antidiabetic",
@@ -512,9 +540,9 @@
       "status": "In Stock"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a3",
-      "createdAt": "2026-07-20T09:31:26.038Z",
-      "updatedAt": "2026-07-20T09:31:26.038Z",
+      "_id": "6a5e272cd80de876cd1260d9",
+      "createdAt": "2026-07-20T13:48:28.655Z",
+      "updatedAt": "2026-07-20T13:48:28.655Z",
       "id": "RX-2206",
       "name": "Salbutamol Inhaler",
       "category": "Bronchodilator",
@@ -525,9 +553,9 @@
       "status": "Critical"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a4",
-      "createdAt": "2026-07-20T09:31:26.038Z",
-      "updatedAt": "2026-07-20T09:31:26.038Z",
+      "_id": "6a5e272cd80de876cd1260da",
+      "createdAt": "2026-07-20T13:48:28.655Z",
+      "updatedAt": "2026-07-20T13:48:28.655Z",
       "id": "RX-2207",
       "name": "Omeprazole 20mg",
       "category": "PPI",
@@ -538,9 +566,9 @@
       "status": "In Stock"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a5",
-      "createdAt": "2026-07-20T09:31:26.038Z",
-      "updatedAt": "2026-07-20T09:31:26.038Z",
+      "_id": "6a5e272cd80de876cd1260db",
+      "createdAt": "2026-07-20T13:48:28.655Z",
+      "updatedAt": "2026-07-20T13:48:28.655Z",
       "id": "RX-2208",
       "name": "Ceftriaxone 1g",
       "category": "Antibiotic",
@@ -549,26 +577,13 @@
       "unit": "Vials",
       "expiry": "2026-10-12",
       "status": "Critical"
-    },
-    {
-      "_id": "6a5dec5edc02125d331b0459",
-      "createdAt": "2026-07-20T09:37:34.620Z",
-      "updatedAt": "2026-07-20T09:37:34.620Z",
-      "id": "RX-2209",
-      "name": "paracetamol250",
-      "category": "antibiotic",
-      "stock": 1000,
-      "reorderLevel": 250,
-      "unit": "Tablets",
-      "expiry": "2026-07-22",
-      "status": "In Stock"
     }
   ],
   "billing": [
     {
-      "_id": "6a5deaeee0e8b51bda4d90a6",
-      "createdAt": "2026-07-20T09:31:26.042Z",
-      "updatedAt": "2026-07-20T09:31:26.042Z",
+      "_id": "6a5e272cd80de876cd1260dc",
+      "createdAt": "2026-07-20T13:48:28.658Z",
+      "updatedAt": "2026-07-20T13:48:28.658Z",
       "id": "INV-9001",
       "patient": "Arjun Menon",
       "department": "Cardiology",
@@ -578,9 +593,9 @@
       "method": "Insurance"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a7",
-      "createdAt": "2026-07-20T09:31:26.042Z",
-      "updatedAt": "2026-07-20T09:31:26.042Z",
+      "_id": "6a5e272cd80de876cd1260dd",
+      "createdAt": "2026-07-20T13:48:28.658Z",
+      "updatedAt": "2026-07-20T13:48:28.658Z",
       "id": "INV-9002",
       "patient": "Fatima Sheikh",
       "department": "Oncology",
@@ -590,9 +605,9 @@
       "method": "Insurance"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a8",
-      "createdAt": "2026-07-20T09:31:26.042Z",
-      "updatedAt": "2026-07-20T09:31:26.043Z",
+      "_id": "6a5e272cd80de876cd1260de",
+      "createdAt": "2026-07-20T13:48:28.658Z",
+      "updatedAt": "2026-07-20T13:48:28.658Z",
       "id": "INV-9003",
       "patient": "Rohit Sharma",
       "department": "Pediatrics",
@@ -602,9 +617,9 @@
       "method": "Card"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90a9",
-      "createdAt": "2026-07-20T09:31:26.043Z",
-      "updatedAt": "2026-07-20T09:31:26.043Z",
+      "_id": "6a5e272cd80de876cd1260df",
+      "createdAt": "2026-07-20T13:48:28.658Z",
+      "updatedAt": "2026-07-20T13:48:28.658Z",
       "id": "INV-9004",
       "patient": "Vikram Aditya",
       "department": "Orthopedics",
@@ -614,9 +629,9 @@
       "method": "Cash"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90aa",
-      "createdAt": "2026-07-20T09:31:26.043Z",
-      "updatedAt": "2026-07-20T09:31:26.043Z",
+      "_id": "6a5e272cd80de876cd1260e0",
+      "createdAt": "2026-07-20T13:48:28.658Z",
+      "updatedAt": "2026-07-20T13:48:28.658Z",
       "id": "INV-9005",
       "patient": "Karthik Subramaniam",
       "department": "Cardiology",
@@ -626,9 +641,9 @@
       "method": "Insurance"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90ab",
-      "createdAt": "2026-07-20T09:31:26.043Z",
-      "updatedAt": "2026-07-20T09:31:26.043Z",
+      "_id": "6a5e272cd80de876cd1260e1",
+      "createdAt": "2026-07-20T13:48:28.658Z",
+      "updatedAt": "2026-07-20T13:48:28.658Z",
       "id": "INV-9006",
       "patient": "Meera Pillai",
       "department": "Neurology",
@@ -638,9 +653,9 @@
       "method": "Card"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90ac",
-      "createdAt": "2026-07-20T09:31:26.043Z",
-      "updatedAt": "2026-07-20T09:31:26.043Z",
+      "_id": "6a5e272cd80de876cd1260e2",
+      "createdAt": "2026-07-20T13:48:28.658Z",
+      "updatedAt": "2026-07-20T13:48:28.658Z",
       "id": "INV-9007",
       "patient": "Suresh Gopalan",
       "department": "General Medicine",
@@ -650,9 +665,9 @@
       "method": "Cash"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90ad",
-      "createdAt": "2026-07-20T09:31:26.043Z",
-      "updatedAt": "2026-07-20T09:31:26.043Z",
+      "_id": "6a5e272cd80de876cd1260e3",
+      "createdAt": "2026-07-20T13:48:28.658Z",
+      "updatedAt": "2026-07-20T13:48:28.658Z",
       "id": "INV-9008",
       "patient": "Manoj Tiwari",
       "department": "Oncology",
@@ -664,9 +679,9 @@
   ],
   "laboratory": [
     {
-      "_id": "6a5deaeee0e8b51bda4d90ae",
-      "createdAt": "2026-07-20T09:31:26.050Z",
-      "updatedAt": "2026-07-20T09:31:26.050Z",
+      "_id": "6a5e272cd80de876cd1260e4",
+      "createdAt": "2026-07-20T13:48:28.661Z",
+      "updatedAt": "2026-07-20T13:48:28.661Z",
       "id": "LAB-3301",
       "patient": "Fatima Sheikh",
       "test": "Complete Blood Count",
@@ -677,9 +692,9 @@
       "result": "Hemoglobin: 14.2 g/dL (Normal)"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90af",
-      "createdAt": "2026-07-20T09:31:26.050Z",
-      "updatedAt": "2026-07-20T09:31:26.050Z",
+      "_id": "6a5e272cd80de876cd1260e5",
+      "createdAt": "2026-07-20T13:48:28.661Z",
+      "updatedAt": "2026-07-20T13:48:28.661Z",
       "id": "LAB-3302",
       "patient": "Karthik Subramaniam",
       "test": "Cardiac Enzyme Panel",
@@ -690,9 +705,9 @@
       "result": "Pending Analysis"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b0",
-      "createdAt": "2026-07-20T09:31:26.050Z",
-      "updatedAt": "2026-07-20T09:31:26.050Z",
+      "_id": "6a5e272cd80de876cd1260e6",
+      "createdAt": "2026-07-20T13:48:28.661Z",
+      "updatedAt": "2026-07-20T13:48:28.661Z",
       "id": "LAB-3303",
       "patient": "Meera Pillai",
       "test": "MRI Brain",
@@ -703,9 +718,9 @@
       "result": "Scheduled"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b1",
-      "createdAt": "2026-07-20T09:31:26.050Z",
-      "updatedAt": "2026-07-20T09:31:26.050Z",
+      "_id": "6a5e272cd80de876cd1260e7",
+      "createdAt": "2026-07-20T13:48:28.661Z",
+      "updatedAt": "2026-07-20T13:48:28.661Z",
       "id": "LAB-3304",
       "patient": "Suresh Gopalan",
       "test": "Lipid Profile",
@@ -716,9 +731,9 @@
       "result": "Cholesterol: 185 mg/dL (Normal)"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b2",
-      "createdAt": "2026-07-20T09:31:26.050Z",
-      "updatedAt": "2026-07-20T09:31:26.050Z",
+      "_id": "6a5e272cd80de876cd1260e8",
+      "createdAt": "2026-07-20T13:48:28.661Z",
+      "updatedAt": "2026-07-20T13:48:28.661Z",
       "id": "LAB-3305",
       "patient": "Lakshmi Narayanan",
       "test": "Ultrasound - Obstetric",
@@ -729,9 +744,9 @@
       "result": "Normal fetal growth"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b3",
-      "createdAt": "2026-07-20T09:31:26.050Z",
-      "updatedAt": "2026-07-20T09:31:26.050Z",
+      "_id": "6a5e272cd80de876cd1260e9",
+      "createdAt": "2026-07-20T13:48:28.661Z",
+      "updatedAt": "2026-07-20T13:48:28.661Z",
       "id": "LAB-3306",
       "patient": "Rohit Sharma",
       "test": "Blood Glucose",
@@ -744,85 +759,58 @@
   ],
   "activities": [
     {
-      "_id": "6a5deaeee0e8b51bda4d90b4",
-      "createdAt": "2026-07-20T09:31:26.055Z",
-      "updatedAt": "2026-07-20T09:31:26.056Z",
+      "_id": "6a5e272cd80de876cd1260ea",
+      "createdAt": "2026-07-20T13:48:28.664Z",
+      "updatedAt": "2026-07-20T13:48:28.664Z",
       "type": "admission",
       "title": "Patient Admitted",
       "detail": "Dr. Priya Raman admitted patient Karthik Subramaniam to ICU-08",
-      "time": "2026-07-20T09:23:20.322Z"
+      "time": "2026-07-20T13:40:28.436Z"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b5",
-      "createdAt": "2026-07-20T09:31:26.056Z",
-      "updatedAt": "2026-07-20T09:31:26.056Z",
+      "_id": "6a5e272cd80de876cd1260eb",
+      "createdAt": "2026-07-20T13:48:28.664Z",
+      "updatedAt": "2026-07-20T13:48:28.664Z",
       "type": "inventory",
       "title": "Low Stock Flagged",
       "detail": "Pharmacy flagged Salbutamol Inhaler as critical low stock",
-      "time": "2026-07-20T09:07:20.322Z"
+      "time": "2026-07-20T13:24:28.436Z"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b6",
-      "createdAt": "2026-07-20T09:31:26.056Z",
-      "updatedAt": "2026-07-20T09:31:26.056Z",
+      "_id": "6a5e272cd80de876cd1260ec",
+      "createdAt": "2026-07-20T13:48:28.664Z",
+      "updatedAt": "2026-07-20T13:48:28.664Z",
       "type": "lab",
       "title": "Lab Test Completed",
       "detail": "Lab completed CBC results for Fatima Sheikh",
-      "time": "2026-07-20T08:50:20.322Z"
+      "time": "2026-07-20T13:07:28.436Z"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b7",
-      "createdAt": "2026-07-20T09:31:26.056Z",
-      "updatedAt": "2026-07-20T09:31:26.056Z",
+      "_id": "6a5e272cd80de876cd1260ed",
+      "createdAt": "2026-07-20T13:48:28.664Z",
+      "updatedAt": "2026-07-20T13:48:28.664Z",
       "type": "billing",
       "title": "Invoice Generated",
       "detail": "Billing generated invoice INV-9008 for Manoj Tiwari",
-      "time": "2026-07-20T08:31:20.322Z"
+      "time": "2026-07-20T12:48:28.436Z"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b8",
-      "createdAt": "2026-07-20T09:31:26.056Z",
-      "updatedAt": "2026-07-20T09:31:26.056Z",
+      "_id": "6a5e272cd80de876cd1260ee",
+      "createdAt": "2026-07-20T13:48:28.664Z",
+      "updatedAt": "2026-07-20T13:48:28.664Z",
       "type": "discharge",
       "title": "Patient Discharged",
       "detail": "Dr. Anand Verma discharged patient after outpatient consultation",
-      "time": "2026-07-20T07:31:20.322Z"
+      "time": "2026-07-20T11:48:28.436Z"
     },
     {
-      "_id": "6a5deaeee0e8b51bda4d90b9",
-      "createdAt": "2026-07-20T09:31:26.056Z",
-      "updatedAt": "2026-07-20T09:31:26.056Z",
+      "_id": "6a5e272cd80de876cd1260ef",
+      "createdAt": "2026-07-20T13:48:28.664Z",
+      "updatedAt": "2026-07-20T13:48:28.664Z",
       "type": "appointment",
       "title": "Appointments Scheduled",
       "detail": "Front Desk scheduled 4 new appointments for tomorrow",
-      "time": "2026-07-20T06:31:20.322Z"
-    },
-    {
-      "_id": "6a5deaf4dc02125d331b0456",
-      "createdAt": "2026-07-20T09:31:32.919Z",
-      "updatedAt": "2026-07-20T09:31:32.919Z",
-      "type": "appointment",
-      "title": "Appointment Booked",
-      "detail": "Scheduled Consultation for Arjun Test with Dr. Priya Raman on 2026-07-20 at 09:00 AM",
-      "time": 1784539892917
-    },
-    {
-      "_id": "6a5debaadc02125d331b0458",
-      "createdAt": "2026-07-20T09:34:34.376Z",
-      "updatedAt": "2026-07-20T09:34:34.376Z",
-      "type": "appointment",
-      "title": "Patient Registered",
-      "detail": "priya registered patient rahul to General Medicine",
-      "time": 1784540074369
-    },
-    {
-      "_id": "6a5dec5edc02125d331b045a",
-      "createdAt": "2026-07-20T09:37:34.623Z",
-      "updatedAt": "2026-07-20T09:37:34.623Z",
-      "type": "inventory",
-      "title": "Pharmacy Item Added",
-      "detail": "Added paracetamol250 (1000 Tablets) to pharmacy stock inventory",
-      "time": 1784540254622
+      "time": "2026-07-20T10:48:28.436Z"
     }
   ]
 }

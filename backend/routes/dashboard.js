@@ -7,6 +7,7 @@ const Ward = require("../models/Ward");
 const Pharmacy = require("../models/Pharmacy");
 const Billing = require("../models/Billing");
 const Activity = require("../models/Activity");
+const Laboratory = require("../models/Laboratory");
 const authMiddleware = require("../middleware/authMiddleware");
 
 // GET dashboard statistics and charts
