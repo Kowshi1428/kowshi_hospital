@@ -3,6 +3,7 @@ const router = express.Router();
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 const Patient = require("../models/Patient");
+const Activity = require("../models/Activity");
 const authMiddleware = require("../middleware/authMiddleware");
 
 const JWT_SECRET = process.env.JWT_SECRET || "KowshiHospitalsSuperSecretJWTKey123!";
@@ -93,6 +94,70 @@ router.post("/register", async (req, res) => {
   } catch (err) {
     console.error("Registration error:", err);
     res.status(500).json({ message: "Server error during registration" });
+  }
+});
+
+// Patient Self-Registration (Public signup)
+router.post("/patient-register", async (req, res) => {
+  const { name, age, gender, phone } = req.body;
+
+  if (!name || !age || !gender || !phone) {
+    return res.status(400).json({ message: "Please fill in all fields" });
+  }
+
+  try {
+    // Generate MRN
+    const count = await Patient.countDocuments();
+    const nextNum = 84000 + count + 1;
+    const patientId = `MRN-${nextNum}`;
+
+    const newPatient = new Patient({
+      id: patientId,
+      name,
+      age: Number(age),
+      gender,
+      department: "General Medicine",
+      doctor: "Dr. Divya Krishnan", // Default assigned doctor
+      status: "Outpatient",
+      room: "—",
+      condition: "Stable",
+      phone
+    });
+
+    const savedPatient = await newPatient.save();
+
+    // Log Activity
+    const activity = new Activity({
+      type: "appointment",
+      title: "Patient Self-Registered",
+      detail: `Patient ${name} registered online via Patient Portal (Assigned: Dr. Divya Krishnan)`
+    });
+    await activity.save();
+
+    // Sign JWT token to log them in directly
+    const payload = {
+      id: savedPatient._id,
+      name: savedPatient.name,
+      patientId: savedPatient.id,
+      role: "patient"
+    };
+
+    jwt.sign(payload, JWT_SECRET, { expiresIn: "24h" }, (err, token) => {
+      if (err) throw err;
+      res.status(201).json({
+        token,
+        user: {
+          id: savedPatient._id,
+          name: savedPatient.name,
+          patientId: savedPatient.id,
+          role: "patient"
+        },
+        patientId: savedPatient.id // Send generated MRN so they can see it
+      });
+    });
+  } catch (err) {
+    console.error("Patient register error:", err);
+    res.status(500).json({ message: "Server error during patient registration" });
   }
 });
 
