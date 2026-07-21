@@ -98,7 +98,7 @@ const activitiesData = [
   { type: 'appointment', title: 'Appointments Scheduled', detail: 'Front Desk scheduled 4 new appointments for tomorrow', time: new Date(Date.now() - 180 * 60 * 1000) },
 ];
 
-async function seed() {
+async function seed(shouldExit = true) {
   try {
     console.log("Connecting to database...");
     await mongoose.connect(process.env.MONGO_URI, { serverSelectionTimeoutMS: 5000 });
@@ -106,6 +106,7 @@ async function seed() {
     console.log("Connected to MongoDB successfully.");
   } catch (err) {
     console.log("MongoDB connection failed. Switching database engine to local fallback...");
+    console.log("Error details:", err.message || err);
     setConnected(false);
   }
 
@@ -153,12 +154,17 @@ async function seed() {
     await Activity.insertMany(activitiesData);
 
     console.log("Database operations completed.");
-    process.exit(0);
+    if (shouldExit) process.exit(0);
   } catch (err) {
     console.error("Seeding operation failed:");
     console.error(err);
-    process.exit(1);
+    if (shouldExit) process.exit(1);
+    throw err;
   }
 }
 
-seed();
+module.exports = seed;
+
+if (require.main === module) {
+  seed();
+}

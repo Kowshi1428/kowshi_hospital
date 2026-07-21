@@ -39,6 +39,17 @@ app.use("/api/billing", billingRoutes);
 app.use("/api/laboratory", laboratoryRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 
+// Seed Database Route
+app.get("/api/seed-db", async (req, res) => {
+  try {
+    const seed = require("./scripts/seed");
+    await seed(false); // Do not process.exit()
+    res.json({ message: "Database seeded successfully!" });
+  } catch (err) {
+    res.status(500).json({ error: err.message || "Seeding failed" });
+  }
+});
+
 // Home Route (status page)
 app.get("/", (req, res) => {
   res.json({
