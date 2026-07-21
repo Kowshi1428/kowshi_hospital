@@ -128,6 +128,11 @@ async function seed(shouldExit = true) {
       password: "admin123",
       name: "Sathya"
     });
+    await User.create({
+      email: "kowshalya1428@gmail.com",
+      password: "123456789",
+      name: "Kowshalya"
+    });
 
     console.log("Seeding patient directories...");
     await Patient.insertMany(patientsData);
