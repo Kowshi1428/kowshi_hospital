@@ -140,9 +140,9 @@ export default function Billing() {
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <StatCard label="Collected" value={formatCurrency(totalRevenue)} icon={IndianRupee} tone="success" />
-        <StatCard label="Pending" value={formatCurrency(pending)} icon={Clock} tone="warning" />
-        <StatCard label="Overdue" value={formatCurrency(overdue)} icon={AlertCircle} tone="destructive" />
+        <StatCard label={isPatient ? "Paid Invoices" : "Collected"} value={formatCurrency(totalRevenue)} icon={IndianRupee} tone="success" />
+        <StatCard label={isPatient ? "Pending Bills" : "Pending"} value={formatCurrency(pending)} icon={Clock} tone="warning" />
+        <StatCard label={isPatient ? "Overdue Bills" : "Overdue"} value={formatCurrency(overdue)} icon={AlertCircle} tone="destructive" />
       </div>
 
       <Card>

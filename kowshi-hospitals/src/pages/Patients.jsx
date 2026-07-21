@@ -358,7 +358,14 @@ export default function Patients() {
                 <label className="text-xs font-medium text-muted-foreground">Status</label>
                 <select
                   value={newPatient.status}
-                  onChange={(e) => setNewPatient({ ...newPatient, status: e.target.value })}
+                  onChange={(e) => {
+                    const nextStatus = e.target.value;
+                    setNewPatient({
+                      ...newPatient,
+                      status: nextStatus,
+                      room: nextStatus === 'Admitted' ? '' : '—'
+                    });
+                  }}
                   className="w-full h-10 px-3 rounded-lg bg-slate-900 border border-border text-sm text-white focus:outline-none"
                 >
                   <option value="Admitted">Admitted</option>
