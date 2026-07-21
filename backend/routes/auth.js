@@ -64,13 +64,11 @@ router.post("/register", async (req, res) => {
       return res.status(400).json({ message: "An account with this email already exists" });
     }
 
-    const newUser = new User({
+    const newUser = await User.create({
       name,
       email,
       password
     });
-
-    await newUser.save();
 
     const payload = {
       id: newUser._id,

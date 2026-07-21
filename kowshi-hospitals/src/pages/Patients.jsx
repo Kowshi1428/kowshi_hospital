@@ -1,4 +1,5 @@
 import React, { useMemo, useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import { Search, Plus, Phone, Eye, Trash2 } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -48,7 +49,7 @@ export default function Patients() {
   const [dept, setDept] = useState('all')
   const [status, setStatus] = useState('all')
   const [selected, setSelected] = useState(null)
-  
+
   // Register Patient Form State
   const [isRegisterOpen, setIsRegisterOpen] = useState(false)
   const [newPatient, setNewPatient] = useState({
@@ -64,6 +65,8 @@ export default function Patients() {
   })
   const [formError, setFormError] = useState('')
 
+  const location = useLocation()
+
   const fetchPatients = async () => {
     try {
       const res = await api.get('/patients')
@@ -78,6 +81,19 @@ export default function Patients() {
   useEffect(() => {
     fetchPatients()
   }, [])
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search)
+    if (params.get('register') === 'true') {
+      const statusParam = params.get('status') || 'Outpatient'
+      setNewPatient(prev => ({
+        ...prev,
+        status: statusParam,
+        room: statusParam === 'Admitted' ? '' : '—'
+      }))
+      setIsRegisterOpen(true)
+    }
+  }, [location])
 
   const filtered = useMemo(() => {
     return patients.filter((p) => {
@@ -411,7 +427,7 @@ export default function Patients() {
                   </div>
                 </div>
               </DialogHeader>
-              
+
               <div className="grid grid-cols-2 gap-4 text-sm mt-4">
                 <InfoRow label="Age / Gender" value={`${selected.age} yrs · ${selected.gender}`} />
                 <InfoRow label="Department" value={selected.department} />

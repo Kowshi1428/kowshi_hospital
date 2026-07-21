@@ -123,7 +123,7 @@ export default function Navbar() {
           )}
 
           {!isPatient && (
-            <Button size="sm" className="h-8 text-xs hidden sm:inline-flex gap-1" onClick={() => navigate('/patients')}>
+            <Button size="sm" className="h-8 text-xs hidden sm:inline-flex gap-1" onClick={() => navigate('/patients?register=true')}>
               <Plus className="h-3.5 w-3.5" />
               New Patient
             </Button>
@@ -164,6 +164,16 @@ export default function Navbar() {
             </DropdownMenuContent>
           </DropdownMenu>
 
+          {/* Direct Sign Out Button */}
+          <button
+            onClick={handleSignOut}
+            title="Sign Out"
+            className="hidden sm:flex items-center justify-center gap-1.5 h-8 px-3 rounded-lg border border-border text-muted-foreground hover:bg-destructive/10 hover:text-destructive hover:border-destructive/20 transition-all text-xs font-semibold shrink-0"
+          >
+            <LogOut className="h-3.5 w-3.5" />
+            <span>Sign Out</span>
+          </button>
+
           {/* Mobile menu trigger */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -198,14 +208,18 @@ export default function Navbar() {
             </NavLink>
           ))}
           
-          {!isPatient && (
-            <div className="pt-2 border-t border-border mt-2">
-              <Button size="sm" className="w-full text-xs gap-1 py-1.5 h-auto" onClick={() => { setMobileMenuOpen(false); navigate('/patients') }}>
+          <div className="pt-2 border-t border-border mt-2 space-y-2">
+            {!isPatient && (
+              <Button size="sm" className="w-full text-xs gap-1 py-1.5 h-auto" onClick={() => { setMobileMenuOpen(false); navigate('/patients?register=true') }}>
                 <Plus className="h-3.5 w-3.5" />
                 New Patient Registration
               </Button>
-            </div>
-          )}
+            )}
+            <Button size="sm" variant="destructive" className="w-full text-xs gap-1 py-1.5 h-auto animate-fade-in" onClick={handleSignOut}>
+              <LogOut className="h-3.5 w-3.5" />
+              Sign Out
+            </Button>
+          </div>
         </div>
       )}
     </header>

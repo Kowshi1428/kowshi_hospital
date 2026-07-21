@@ -7,6 +7,14 @@
       "email": "admin@kowshi.com",
       "password": "$2a$10$KghvChrZa9/L6VjSYUI8eOHEy2.ObMhcbvBjICicdVwALltsATBzu",
       "name": "Sathya"
+    },
+    {
+      "_id": "823hi1pp6",
+      "createdAt": "2026-07-21T04:52:34.456Z",
+      "updatedAt": "2026-07-21T04:52:34.462Z",
+      "name": "Kowshalya",
+      "email": "Kowshi1428@gmail.com",
+      "password": "$2a$10$36fu2U9dGvxlKCTAfPkokeMk8SZDpj6Ghgjs0BaU1XiW.1ROiPzK6"
     }
   ],
   "patients": [
@@ -301,20 +309,6 @@
       "status": "On Duty",
       "shift": "07:00 - 15:00",
       "phone": "+91 98450 10107"
-    },
-    {
-      "_id": "6a5e272cd80de876cd1260c5",
-      "createdAt": "2026-07-20T13:48:28.644Z",
-      "updatedAt": "2026-07-20T13:48:28.644Z",
-      "id": "DOC-108",
-      "name": "Dr. Karthik Nair",
-      "specialty": "Emergency Medicine",
-      "experience": 12,
-      "patients": 38,
-      "rating": 4.7,
-      "status": "On Duty",
-      "shift": "00:00 - 08:00",
-      "phone": "+91 98450 10108"
     }
   ],
   "appointments": [

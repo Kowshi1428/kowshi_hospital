@@ -4,41 +4,41 @@
 
 @layer base {
   :root {
-    --background: 222 32% 6%;
-    --foreground: 213 31% 91%;
+    --background: 224 45% 6%;
+    --foreground: 213 31% 94%;
 
-    --card: 222 28% 9%;
-    --card-foreground: 213 31% 91%;
+    --card: 224 35% 10%;
+    --card-foreground: 213 31% 94%;
 
-    --popover: 222 28% 9%;
-    --popover-foreground: 213 31% 91%;
+    --popover: 224 35% 10%;
+    --popover-foreground: 213 31% 94%;
 
-    --primary: 224 92% 62%;
+    --primary: 199 89% 48%; /* Medical Cyan/Blue */
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 222 24% 14%;
-    --secondary-foreground: 213 31% 91%;
+    --secondary: 224 25% 14%;
+    --secondary-foreground: 213 31% 94%;
 
-    --muted: 222 22% 13%;
-    --muted-foreground: 217 15% 62%;
+    --muted: 224 20% 13%;
+    --muted-foreground: 217 15% 65%;
 
-    --accent: 222 24% 16%;
-    --accent-foreground: 213 31% 91%;
+    --accent: 224 25% 16%;
+    --accent-foreground: 213 31% 94%;
 
-    --destructive: 0 72% 60%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --success: 152 58% 45%;
+    --success: 162 84% 40%; /* Sterile Teal Green */
     --success-foreground: 210 40% 98%;
 
-    --warning: 38 92% 55%;
+    --warning: 45 93% 47%;
     --warning-foreground: 26 40% 10%;
 
-    --border: 222 20% 18%;
-    --input: 222 20% 18%;
-    --ring: 224 92% 62%;
+    --border: 224 20% 18%;
+    --input: 224 20% 18%;
+    --ring: 199 89% 48%;
 
-    --radius: 0.85rem;
+    --radius: 0.75rem;
   }
 }
 
@@ -52,8 +52,8 @@
   body {
     @apply bg-background text-foreground font-sans antialiased;
     background-image:
-      radial-gradient(1200px 600px at 100% -10%, rgba(62,107,250,0.10), transparent 60%),
-      radial-gradient(900px 500px at -10% 20%, rgba(34,211,238,0.06), transparent 55%);
+      radial-gradient(1200px 600px at 100% -10%, rgba(14, 165, 233, 0.12), transparent 60%),
+      radial-gradient(900px 500px at -10% 20%, rgba(13, 148, 136, 0.08), transparent 55%);
     background-attachment: fixed;
   }
   h1, h2, h3, h4 {

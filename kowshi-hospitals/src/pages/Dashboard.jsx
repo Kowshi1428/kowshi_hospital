@@ -29,6 +29,7 @@ import {
   Pill,
   Receipt,
   Stethoscope,
+  Activity,
 } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -263,11 +264,11 @@ export default function Dashboard() {
               critical and 2 pharmacy items need urgent reorder.
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
-              <Button size="sm">
+              <Button size="sm" onClick={() => navigate('/patients?register=true&status=Admitted')}>
                 <UserPlus className="h-3.5 w-3.5" />
                 Admit Patient
               </Button>
-              <Button size="sm" variant="secondary">
+              <Button size="sm" variant="secondary" onClick={() => navigate('/patients')}>
                 View critical alerts
               </Button>
             </div>
