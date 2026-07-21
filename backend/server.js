@@ -19,12 +19,11 @@ const dashboardRoutes = require("./routes/dashboard");
 const app = express();
 
 // Middleware
-const allowedOrigins = ["http://localhost:5173", "http://localhost:3000"];
-if (process.env.FRONTEND_URL) {
-  allowedOrigins.push(process.env.FRONTEND_URL);
-}
 app.use(cors({
-  origin: allowedOrigins,
+  origin: function (origin, callback) {
+    // Allow all origins for easy portfolio deployment
+    callback(null, true);
+  },
   credentials: true
 }));
 app.use(express.json());
