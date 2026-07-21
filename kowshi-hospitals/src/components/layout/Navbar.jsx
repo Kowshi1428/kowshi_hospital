@@ -92,9 +92,10 @@ export default function Navbar() {
                 key={item.to}
                 to={item.to}
                 end={item.end}
+                title={item.label}
                 className={({ isActive }) =>
                   cn(
-                    'flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-150',
+                    'flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all duration-150',
                     isActive
                       ? 'bg-primary-500/10 text-primary-300 border border-primary-500/20 font-semibold'
                       : 'text-muted-foreground hover:bg-secondary/70 hover:text-foreground'
@@ -102,7 +103,7 @@ export default function Navbar() {
                 }
               >
                 <item.icon className="h-3.5 w-3.5 shrink-0" />
-                <span>{item.label}</span>
+                <span className="hidden 2xl:inline">{item.label}</span>
               </NavLink>
             ))}
           </nav>
